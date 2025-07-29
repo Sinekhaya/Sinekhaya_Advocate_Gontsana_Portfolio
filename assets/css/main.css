@@ -684,6 +684,46 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+/* ===== Custom Skills Styling ===== */
+.skills-animation .progress {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.skills-animation .progress .skill {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2c3e50;
+}
+
+.skills-animation .progress-bar-wrap {
+  background: #f3f3f3;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skills-animation .progress-bar {
+  background: linear-gradient(to right, #00b894, #0984e3);
+  height: 10px;
+  transition: width 1.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.skills-animation .val {
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+}
+
+.skills.section light-background {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
